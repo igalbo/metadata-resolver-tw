@@ -1,0 +1,13 @@
+<form class="add-form" (ngSubmit)="onSubmit()">
+  <div class="form-control">
+    <input
+      type="text"
+      name="text"
+      [(ngModel)]="text"
+      id="text"
+      placeholder="Enter url here"
+    />
+    <input type="submit" value="Get details" class="btn" />
+  </div>
+  <!-- {{ text }} -->
+</form>
